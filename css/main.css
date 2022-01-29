@@ -1,0 +1,199 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#headertop{
+    background-color: #01627f;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    
+}
+#headertop a{
+    color: #fff;
+}
+#info{
+    margin-left: 30px;
+}
+#info p{
+    font-size: 18px;
+}
+#slicice{
+    margin: 10px;
+}
+#slicice a{
+    margin: 3px;
+}
+#headerdown{
+    width: 980px;
+    margin: 0px auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#register{
+    margin-top: 20px;
+}
+#register a{
+    text-decoration: none;
+    color: #800090;
+    margin-top: 20px;
+}
+#search{
+    margin-top: 20px;
+}
+#search button{
+    background-color: #fff;
+}
+#search input{
+    width: 500px;
+    height: 25px;
+    margin-top:20px ;
+}
+nav{
+    display: flex;
+    width: 980px;
+    margin: 0px auto;
+    border-top:2px solid #01627f;
+    
+}
+nav > div{
+    flex-grow: 1;
+    position: relative;
+}
+nav > div > a{
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    color: #01627f;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 200ms;
+}
+nav > div > a:hover{
+    background-color:#01627f;
+    color: #fff;
+}
+nav > div > div > a{
+    display: block;
+    padding:10px 5px;
+    text-decoration: none;
+    color: #01627f;
+    border-bottom: 1px solid #01627f;
+}
+nav > div > div > a:hover{
+    background-color: #01627f;
+    color: #fff;   
+}
+nav > div> div{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    text-align: center; 
+}
+nav > div:hover > div{
+    display: block;
+}
+#pano{
+    width: 980px;
+    margin: 0px auto;
+    margin-top: 60px;
+}
+#slikaPrijava{
+    width: 980px;
+    margin: 0px auto;
+    margin-top: 60px;
+}
+#wrapper{
+    width: 980px;
+    margin: 0px auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#wrapper p{
+    color:#01627f ;
+}
+#main{
+    width: 100%;
+
+    
+}
+
+#main h1{
+    color: #01627f;
+    border-bottom: 1px solid #01627f;
+    text-align: center;
+    font-size: 30px;
+}
+#main a{
+    color: #01627f;
+    text-decoration: none;
+}
+
+.proizvodi{
+    display: flex;
+    justify-content: space-between;
+}
+.slikaproizvoda{
+   width: 350px;
+   height: 350px;
+   margin: 5px;
+}
+#footer{
+    background-color: #01627f;
+    color: #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+#footer p{
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+}
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #01627f;
+    border: none;
+    border-radius: 15px;
+    
+  }
+   
+  button:hover {background-color: #01627f}
+  
+  button:active {
+    background-color: #01627f;
+   
+  }
+  input{
+      border: 2px solid #01627f ;
+      color:#01627f;
+      
+  }
+
+  .topnav {
+    background-color: #01627f;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #fff;
+    color: #01627f;
+  }
+  .topnav-right {
+    float: right;
+  }
